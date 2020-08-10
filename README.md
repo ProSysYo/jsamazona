@@ -66,3 +66,15 @@ JS AMAZONA
     make router() async and call await HomeScreen.render()
     use cors on backend
     check the result
+8. Add Webpack
+    cd frontend
+    npm install -D webpack webpack-cli webpack-dev-server
+    npm uninstall live-server
+    "start": "webpack-dev-server --mode development --watch-content-base --open"
+    move index.html, style.css and images to frontend folder
+    rename app.js to index.js
+    update index.html
+    add script main.js before body tag
+    npm start
+    npm install axios
+    change fetch to axios in HomeScreen
