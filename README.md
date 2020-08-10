@@ -78,3 +78,10 @@ JS AMAZONA
     npm start
     npm install axios
     change fetch to axios in HomeScreen
+9. Install Babel For ES6 Syntax
+    npm install -D babel core, cli, node, preset-env
+    Create .babelrc and set presets to @babel/preset-env
+    npm install -D nodemon
+    set start: nodemon --watch backend --exec babel-node backend/server.js
+    convert require to import in server.js
+    npm start
