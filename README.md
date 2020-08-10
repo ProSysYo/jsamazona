@@ -59,3 +59,10 @@ JS AMAZONA
     create route for /api/products
     return products in data.js
     run npm start
+7. Load Products From Backend
+    edit HomeScreen.js
+    make render async
+    fetch products from '/api/products' in render()
+    make router() async and call await HomeScreen.render()
+    use cors on backend
+    check the result
