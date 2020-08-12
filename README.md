@@ -85,3 +85,16 @@ JS AMAZONA
     set start: nodemon --watch backend --exec babel-node backend/server.js
     convert require to import in server.js
     npm start
+10.
+11.
+12.Create Rating Component
+    create components/Rating.js
+    link to fontawesome.css in index.html
+    create div.rating
+    define Rating object with render()
+    if !props.value return empty div
+    else use fa fa-star, fa-star-half-o and fa-star-o
+    last span for props.text || ''
+    style div.rating, span and last span
+    Edit HomeScreen
+    Add div.product-rating and use Rating component
