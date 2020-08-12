@@ -98,3 +98,7 @@ JS AMAZONA
     style div.rating, span and last span
     Edit HomeScreen
     Add div.product-rating and use Rating component
+13. Product Screen
+    get product id from request
+    implement /api/product/:id api
+    send Ajax request to product api
