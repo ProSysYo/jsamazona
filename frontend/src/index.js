@@ -2,10 +2,13 @@ import HomeScreen from './screens/HomeScreen.js'
 import ProductScreen from './screens/ProductScreen.js';
 import { parseRequestUrl } from './util.js';
 import Error404Screen from './screens/Error404Screen.js';
+import CartScreen from './screens/CartScreen.js';
 
 const routes = {
     "/": HomeScreen,
     "/product/:id": ProductScreen,
+    "/cart/:id": CartScreen,
+    '/cart': CartScreen
 }
 
 const router = async () => {
@@ -18,7 +21,7 @@ const router = async () => {
     const screen = routes[parseUrl] ? routes[parseUrl] : Error404Screen;
     const main = document.getElementById("main-container");
     main.innerHTML = await screen.render();
-    console.log(screen);
+    
     await screen.after_render();
 };
 

@@ -102,3 +102,26 @@ JS AMAZONA
     get product id from request
     implement /api/product/:id api
     send Ajax request to product api
+14. Product Screen UI
+    create back to result link
+    create div.details with 3 columns
+    column 1 for product image
+    column 2 for product information
+    column 3 form product action
+    style .details and all columns
+    create add to cart button with add-button id
+15. Product Screen Action
+    after_render() to add event to the button
+    add event handler for the button
+    redirect user to cart/:product_id
+    implement after_render in index.js
+16. Add To Cart Action
+    create CartScreen.js
+    parseRequestUrl
+    getProduct(request.id)
+    addToCart
+    getCartItems
+    cartItems.find
+    if existItem update qty
+    else add item
+    setCartItems
