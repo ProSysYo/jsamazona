@@ -125,3 +125,12 @@ JS AMAZONA
     if existItem update qty
     else add item
     setCartItems
+17. Cart Screen UI
+    cartItems = getCartItems()
+    create 2 columns for cart items and cart action
+    cartItems.length === 0 ? cart is empty
+    show item image, name, qty and price
+    cart action
+    Subtotal
+    Proceed to Checkout button
+    Add CSS Style
