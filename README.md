@@ -181,3 +181,10 @@ JS AMAZONA
     add generateToken to utils.js
     return token
     test with correct user and password
+22. Sign-in Screen Action
+    after_render handle form submit
+    create signin request in frontend
+    show alert if email or password is incorrect
+    Add getUserInfo and setUserInfo to localStorage
+    create Header component
+    if userInfo.email exist show user name otherwise show signin
