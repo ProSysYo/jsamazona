@@ -150,3 +150,13 @@ JS AMAZONA
     setCartItems( getCartItems().filter)
     if id === parseRequestUrl().id? redirect to '/cart'
     else rerender(CartScreen);
+19. Connect To MongoDB and Create Admin User
+    npm install mongoose
+    connect to mongodb
+    create config.js
+    npm install dotenv
+    export MONGODB_URL
+    create models/userModel.js
+    create userSchema and userModel
+    create userRoute
+    create createadmin route
