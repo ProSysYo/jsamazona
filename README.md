@@ -160,3 +160,7 @@ JS AMAZONA
     create userSchema and userModel
     create userRoute
     create createadmin route
+20. Sign-in Screen UI
+    create SigninScreen
+    render email and password fields
+    style signin form
