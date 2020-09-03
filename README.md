@@ -164,3 +164,20 @@ JS AMAZONA
     create SigninScreen
     render email and password fields
     style signin form
+21. Sign-in Screen Backend
+    create signin api in backend
+    create route for /api/users/signin
+    create check user name and password
+    if it is not ok the return 401 error
+    install express-async-handler
+    wrap it in expressAsyncHandler
+    add error middleware in server.js
+    install Postman
+    send post request
+    test with invalid user password
+    otherwise generate token
+    install jsonwebtoken
+    set config.JWT_SECRET to somethingsecret
+    add generateToken to utils.js
+    return token
+    test with correct user and password
