@@ -188,3 +188,18 @@ JS AMAZONA
     Add getUserInfo and setUserInfo to localStorage
     create Header component
     if userInfo.email exist show user name otherwise show signin
+23. Create Progress Indicator and Alert Component
+    create overlay loading div in index.html
+    Style overlay loading
+    create showLoading() function
+    set loading-overlay classList add active
+    create hideLoading() function
+    create overlay message div in index.html
+    add style overlay message
+    create showMessage(message, callback)
+    document message-overlay set inner HTML
+    div > div id message-overlay-content
+    show message
+    button id message-overlay-close-button OK
+    add class active to it
+    add event listener for button to call callback
